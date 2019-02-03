@@ -1,6 +1,7 @@
 package com.jiho.app;
 
 import model.*;
+import task.*;
 import view.*;
 
 /**
@@ -9,8 +10,11 @@ import view.*;
  */
 public class App 
 {
+    // new MainFrame();
     public static void main( String[] args )
     {
-        new MainFrame();
+        NumberGenerater n = new NumberGenerater();
+        n.start();
+        new NumberChecker(n).start();
     }
 }
