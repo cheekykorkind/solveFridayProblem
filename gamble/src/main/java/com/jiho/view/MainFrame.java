@@ -5,11 +5,13 @@ import javax.swing.*;
 import javax.swing.BorderFactory;
 import javax.swing.border.Border;
 
-public class MainFrame {
+public class MainFrame
+{
 	private JFrame f;
 	private Border border;
 
-    public MainFrame() {
+    public MainFrame()
+    {
     	this.f = new JFrame("스레드를 가진 겜블링");
 		
         this.f.setLayout(new GridLayout(1, 3));

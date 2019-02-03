@@ -5,7 +5,7 @@ import task.*;
 import view.*;
 
 /**
- * Hello world!
+ * Maven프로젝트 시작점
  *
  */
 public class App 
